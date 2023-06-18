@@ -4,8 +4,8 @@ export default function Login({ handleLogin, handleLoginChange }) {
   return (
     <div className="flex m-auto items-center justify-center flex-col h-screen bg-purple-500">
       <div className="mb-5">
-      <h1 className="text-5xl text-white m-auto">Chattr</h1>
-      <p className="text-gray-200">your chats, your way</p>
+      <h1 className="text-5xl text-white m-auto">Chat Application</h1>
+      <p className="text-gray-200">your chats</p>
       </div>
       
       <form

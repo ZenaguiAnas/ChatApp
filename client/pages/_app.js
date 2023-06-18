@@ -9,9 +9,14 @@ function MyApp({ Component, pageProps }) {
   const [userLocation, setUserLocation] = useState("");
   const router = useRouter();
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    router.push("/chat");
+
+    try {
+      // await axios.post('/api/login', { username });
+      router.push("/chat");
+    } catch (error) {
+    }
   };
 
   useEffect(() => {
