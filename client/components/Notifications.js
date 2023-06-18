@@ -7,21 +7,16 @@ const Notifications = ({ onlineUsers, onlineUsersCount, usersRemoved }) => {
         Notifications
       </h2>
       <div className="bg-purple-50 rounded-sm pb-2 px-2">
-        {/* show online users */}
         {onlineUsers.map((user, id) => (
           <div key={id}>
-          <small className="leading-tight">
-            {" "}
-            <span className="text-purple-500">{user.username}</span> just joined
-            the chat from {user.userLocation}!
-          </small>
+            <small className="leading-tight">
+              <span className="text-purple-500">{user}</span> just joined the chat!
+            </small>
           </div>
         ))}
 
-        {/* show users leaving the chat */}
         {usersRemoved.map((user, id) => (
           <small key={id}>
-            {" "}
             <span className="text-purple-500">{user}</span> just left the chat!
           </small>
         ))}
