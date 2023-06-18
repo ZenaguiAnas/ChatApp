@@ -5,12 +5,11 @@ Tags: ASP.NET, Figma, Git/GitHub, Javascript/Typescript, MongoDB, NextJS, Postma
 # Chat Application Documentation
 
 <aside>
-💡 This documentation provides an overview about Realtime chat application using SignalR with NextJS for building the client side and [ASP.NET](http://ASP.NET) for creating the APIs in server side based on the Restfull Architecture.
+💡 This documentation provides an overview about Realtime chat application using SignalR with NextJS for building the client side and ASP.NET for creating the APIs in server side based on the Restfull Architecture.
 
 </aside>
 
-- **This is the online documentation :**
-
+ #### **This is the online documentation :**
 [Real-time Chat Application](https://www.notion.so/Real-time-Chat-Application-3f1dcfc0ebea4c419b643d44224b3e80?pvs=21)
 
 # Contributors
